@@ -173,21 +173,28 @@ px      68    160    252    */
     font-size: 13px;
   }
   header .navbar-default .navbar-toggle {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 0px;
   }
   #slider {
-    padding-top: 90px;
-    padding-bottom: 100px;
+    background: url ("../img/slider-bg_ot2phone.jpg") no-repeat; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    
   }
   #slider .block {
     padding-left: 0px;
   }
   #slider .block h1 {
-    font-size: 20px;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 200px;
   }
   #slider .block p {
-    font-size: 13px;
+    font-size: 15px;
+    text-align: center;
+    padding: 0 20px 0 20px
   }
   /*--
 	wrapper Start 
@@ -253,7 +260,20 @@ px      68    160    252    */
   /*---------------------------------------------
 					Work Start 
 -----------------------------------------------*/
-  #slider-work {
+#global-header{
+  padding-top: 160px;
+  padding-bottom: 0px;
+  background-position-y: 15%;
+  
+}  
+#global-header .block h1 {
+  font-size: 11px;
+ 
+}
+#global-header .block {
+  padding-left: 0px;
+}
+#slider-work {
     padding-top: 100px;
     padding-bottom: 100px;
   }
@@ -387,6 +407,36 @@ px      68    160    252    */
   footer .footer-manu {
     display: ;
   }
+}
+ /*---------------------------------------------
+					About Start 
+-----------------------------------------------*/
+ .group_bio h1 {
+   font-size: 25px;
+   padding-left: 5px;
+ }
+.group_bio p {
+  text-align: left;
+  padding-left: 5px;
+}
+
+.flute_block1 p {
+  padding-left: 5px;
+  text-align: left;
+}
+
+.flute_block1 h2 {
+  font-size: 23px;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: left;
+}
+
+.flute_block img {
+  width: 275px;
+  left: 50px;
+  padding: 10px 0 10px;
 }
 /*		Wide Mobile Layout: 480px.
 		Gutters: 24px.
