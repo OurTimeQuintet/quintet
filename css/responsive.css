@@ -12,13 +12,21 @@ px      68    160    252    344    436    528    620    712    804    896    */
 -----------------------------------------------------------------
 cols    1     2      3      4      5      6      7      8
 px      68    160    252    344    436    528    620    712    */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 580px) and (max-width: 1164px) {
   /*---------------------------------------------
 					Index Start 
 -----------------------------------------------*/
+#slider {
+  background-position-y: 50%;
+}  
+#slider .block h1 {
+    padding-bottom: 375px;
+  }
   /*--
 	wrapper Start 
 --*/
+
+  
   #wrapper {
     text-align: center;
   }
@@ -159,7 +167,7 @@ px      68    160    252    344    436    528    620    712    */
 ---------------------------------------------
 cols    1     2      3
 px      68    160    252    */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 413px) {
   /*---------------------------------------------
 					Index Start 
 -----------------------------------------------*/
@@ -181,7 +189,7 @@ px      68    160    252    */
     background-size: contain;
     background-attachment: fixed;
     position: relative;
-    background-position-y: 75%;
+    background-position-y: 80%;
     padding-top: 0px;
     padding-bottom: 10px;
     
@@ -194,7 +202,7 @@ px      68    160    252    */
     font-size: 35px;
     line-height: 40px;
     text-align: center;
-    padding-bottom: 400px;
+    padding-bottom: 500px;
   }
   #slider .block p {
     display: none;

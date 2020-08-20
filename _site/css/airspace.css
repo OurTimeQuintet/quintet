@@ -105,11 +105,8 @@ font header .navbar-default .navbar-nav li a:hover {
   background-position: 50% 64%;
   padding: 0px 0px 0px 0;
   position: relative;
-  
-  
+
 }
-
-
 
 #slider:before {
   content: "";
@@ -139,8 +136,6 @@ font header .navbar-default .navbar-nav li a:hover {
 
 }
 
-
-
 #slider .block p {
   font-size: 20px;
   line-height: 40px;
@@ -149,7 +144,6 @@ font header .navbar-default .navbar-nav li a:hover {
   letter-spacing: 3px;
   text-align: center;
   padding-bottom: 10px;
- 
 }
 
 
@@ -158,17 +152,13 @@ font header .navbar-default .navbar-nav li a:hover {
 	wrapper Start
 --*/
 #intro {
-  padding: 50px 150px 50px 30px;
+  padding: 50px 30px 50px 30px;
 }
 
-@media screen and (max-width: 415px) {
-  #intro {
-    padding: 10px 40px 10px 40px;
-  }
-}
 #intro .block h2 {
   padding-top: 35px;
   padding-bottom: 25px;
+  padding-right: 50px;
   line-height: 27px;
   margin: 0;
   font-size: 35px;
@@ -178,6 +168,7 @@ font header .navbar-default .navbar-nav li a:hover {
 #intro .block h1 {
   font-size: 20px;
   text-align: center;
+  padding-right: 50px;
 }
 #intro .block p {
   color: #7B7B7B;
@@ -185,19 +176,14 @@ font header .navbar-default .navbar-nav li a:hover {
   font-size: 17px;
   text-indent: 30px;
   text-align: center;
+  flex-wrap: wrap;
+  padding-right: 50px;
  
 }
 #intro .block img {
-  padding-left: 0px;
+  padding-left: 50px;
   width: 105%;
   
-}
-
-@media screen and (max-width: 415px) {
-  #intro .block img {
-    padding-top: 20px;
-    padding-bottom: 30px;
-  }
 }
 
 #intro .section-title {
@@ -205,11 +191,13 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #intro .section-title p {
   padding-top: 20px;
+  
+  
 }
 /*--
 	service Start
 --*/
-#service {
+/*--#service {
   text-align: center;
   padding: 90px 0;
 }
@@ -231,7 +219,7 @@ font header .navbar-default .navbar-nav li a:hover {
   margin: 0;
   font-size: 14px;
   line-height: 1.8;
-}
+}--*/
 
 /*--
 	call-to-action Start
