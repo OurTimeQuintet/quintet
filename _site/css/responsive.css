@@ -177,8 +177,12 @@ px      68    160    252    */
     margin-bottom: 0px;
   }
   #slider {
-    background: url ("../img/slider-bg_ot2phone.jpg") no-repeat; 
-    padding-top: 10px;
+    background: url("../img/slider-bg_ot2phone.jpg") no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    position: relative;
+    background-position-y: 75%;
+    padding-top: 0px;
     padding-bottom: 10px;
     
     
@@ -187,14 +191,16 @@ px      68    160    252    */
     padding-left: 0px;
   }
   #slider .block h1 {
-    font-size: 40px;
+    font-size: 35px;
+    line-height: 40px;
     text-align: center;
-    padding-bottom: 200px;
+    padding-bottom: 400px;
   }
   #slider .block p {
-    font-size: 15px;
+    display: none;
+    /*--font-size: 15px;
     text-align: center;
-    padding: 0 20px 0 20px
+    padding: 0 20px 0 20px--*/
   }
   /*--
 	wrapper Start 
