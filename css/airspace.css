@@ -74,6 +74,7 @@ header .navbar {
 }
 header .navbar-brand {
   padding-top: 5px;
+  padding-bottom: 50px;
 }
 
 header .navbar-default {
@@ -102,7 +103,8 @@ font header .navbar-default .navbar-nav li a:hover {
   background: url("../img/slider-bg_ot2.jpg") no-repeat;
   background-size: contain;
   background-attachment: fixed;
-  background-position: 50% 64%;
+  background-position-x: 0vmax;
+  background-position-y: 20vmin;
   padding: 0px 0px 0px 0;
   position: relative;
 
@@ -116,7 +118,7 @@ font header .navbar-default .navbar-nav li a:hover {
   bottom: 0;
   right: 0;
   width: 100%;
-  height: 100%;
+  /*--height: 100%;--*/
   background: linear-gradient(to left, #8b86a3, #322e40);
   opacity: 0.7;
   
@@ -128,16 +130,16 @@ font header .navbar-default .navbar-nav li a:hover {
 #slider .block h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
-  font-size: 60px;
-  line-height: 60px;
+  font-size: 4vmax;
+  line-height: 1em;
   letter-spacing: 12px;
-  padding-bottom: 565px;
+  padding-bottom: 40vw;
   text-align:center;
 
 }
 
 #slider .block p {
-  font-size: 20px;
+  font-size: 1.5vmax;
   line-height: 40px;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
@@ -402,7 +404,8 @@ font header .navbar-default .navbar-nav li a:hover {
 #global-header {
   background: url("../img/slider-bg_ot3.jpg") no-repeat;
   background-size: contain;
-  padding-top: 480px;
+  background-position-y: 2vmin;
+  padding-top: 62vmin;
   padding-bottom: 0px;
   position: relative;
   background-attachment: fixed;
@@ -426,7 +429,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #global-header .block h1 {
   font-weight: 100;
-  font-size: 45px;
+  font-size: 7vmin;
   letter-spacing: 10px;
   padding-bottom: 15px;
   margin-top: 0;

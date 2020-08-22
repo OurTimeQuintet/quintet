@@ -12,7 +12,8 @@ px      68    160    252    344    436    528    620    712    804    896    */
 -----------------------------------------------------------------
 cols    1     2      3      4      5      6      7      8
 px      68    160    252    344    436    528    620    712    */
-@media only screen and (min-width: 580px) and (max-width: 1164px) {
+
+@media only screen and (min-width: 377px) and (max-width: 414px) {
   /*---------------------------------------------
 					Index Start 
 -----------------------------------------------*/
@@ -167,7 +168,7 @@ px      68    160    252    344    436    528    620    712    */
 ---------------------------------------------
 cols    1     2      3
 px      68    160    252    */
-@media only screen and (max-width: 413px) {
+@media only screen and (min-width:0px) and (max-width: 376px) {
   /*---------------------------------------------
 					Index Start 
 -----------------------------------------------*/
@@ -189,9 +190,9 @@ px      68    160    252    */
     background-size: contain;
     background-attachment: fixed;
     position: relative;
-    background-position-y: 80%;
+    background-position: 0vmin 60vmin;
     padding-top: 0px;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
     
     
   }
@@ -213,6 +214,23 @@ px      68    160    252    */
   /*--
 	wrapper Start 
 --*/
+  #intro {
+    padding: 20vw 0 20vw 0;
+  }
+  #intro .block h2 {
+    padding: 0 0 10vw 0;
+  }
+  #intro .block h1 {
+    padding: 0 0 5vw 0;
+  }
+
+  #intro .block p {
+    padding: 0 4vw 0 4vw;
+  }
+
+  #intro .block img {
+    display: none;
+  }
   #wrapper {
     text-align: center;
     padding-top: 70px;
@@ -275,18 +293,10 @@ px      68    160    252    */
 					Work Start 
 -----------------------------------------------*/
 #global-header{
-  padding-top: 160px;
-  padding-bottom: 0px;
-  background-position-y: 15%;
-  
-}  
-#global-header .block h1 {
-  font-size: 11px;
- 
+  background-position-y: 25vmin;
+  padding-top: 50vmin;
 }
-#global-header .block {
-  padding-left: 0px;
-}
+
 #slider-work {
     padding-top: 100px;
     padding-bottom: 100px;
