@@ -435,33 +435,7 @@ px      68    160    252    */
  /*---------------------------------------------
 					About Start 
 -----------------------------------------------*/
- .group_bio h1 {
-   font-size: 25px;
-   padding-left: 5px;
- }
-.group_bio p {
-  text-align: left;
-  padding-left: 5px;
-}
-
-.flute_block1 p {
-  padding-left: 5px;
-  text-align: left;
-}
-
-.flute_block1 h2 {
-  font-size: 23px;
-  padding-left: 5px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  text-align: left;
-}
-
-.flute_block img {
-  width: 275px;
-  left: 50px;
-  padding: 10px 0 10px;
-}
+ 
 /*		Wide Mobile Layout: 480px.
 		Gutters: 24px.
 		Outer margins: 22px.

@@ -860,167 +860,138 @@ footer .footer-manu ul li a:hover {
 }
 
 .group_bio h1 {
-  font-size: 35px;
-  padding-top: 40px;
-  padding-bottom: 20px;
+  font-size: 3em;
+  padding-top: 1em;
+  padding-bottom: .1em;
 }
 
 .group_bio p {
-  text-indent: 0%;
-  font-size: 15px;
-  text-align: justify;
-  padding-bottom: 40px;
+  text-indent: 1em;
+  font-size: 1.2em;
+  text-align: left;
+  padding-bottom: 2em;
 }
-
 .flute_block {
   border-bottom: double;
+}
 
+.flute_block img{
+  float: left;
+  width: 30em;
   
 }
-.flute_block1 h2 {
-  font-size: 30px;
-  padding-left: 100px;
-  padding-top: 50px;
-  padding-bottom: 20px;
-  text-align: center;
+.flute_block h2 {
+  padding-top: 2em;
+  padding-left: 13em;
+  padding-bottom: .1em;
+  font-size: 2.5em;
 }
 
-.flute_block1 p {
-  text-indent: 0%;
-  font-size: 15px;
-  padding-left: 100px;
-  padding-top: 0px;
-  text-align: justify;
-  line-height: 28px;
-}
-
-.flute_block img {
-  width: 335px;
-  position: relative;
-  right: 0px;
-  left: 115px;
-  padding: 35px 0px 35px;
+.flute_block p {
+  font-size: 1.2em; 
+  text-indent: 2em;
+  padding-left: 28em;
+  padding-bottom: 9.3em;
   
 }
- 
+
 .oboe_block {
-  border-bottom: double; 
-  padding: 50px;
+  border-bottom: double;
+  padding-top: 2em;
+}
+
+.oboe_block img{
+  float: left;
+  width: 30em;
   
 }
-.oboe_block1 h2 {
-  font-size: 30px;
-  padding-left: 100px;
-  padding-top: 50px;
-  padding-bottom: 20px;
-  text-align: center;
+.oboe_block h2 {
+  padding-top: 1em;
+  padding-left: 13em;
+  padding-bottom: .1em;
+  font-size: 2.5em;
 }
 
-.oboe_block1 p {
-  text-indent: 0%;
-  font-size: 15px;
-  padding-left: 100px;
-  padding-top: 0px;
-  text-align: justify;
-  line-height: 28px;
-}
-
-.oboe_block img {
-  width: 335px;
-  position: relative;
-  right: 0px;
-  left: 115px;
-  padding: 35px 0px 35px;
+.oboe_block p {
+  font-size: 1.2em; 
+  text-indent: 2em;
+  padding-left: 28em;
+  padding-bottom: 7em;
   
 }
 
 .clarinet_block {
   border-bottom: double;
-  
-}
-.clarinet_block1 h2 {
-  font-size: 30px;
-  padding-left: 100px;
-  padding-top: 50px;
-  padding-bottom: 20px;
-  text-align: center;
 }
 
-.clarinet_block1 p {
-  text-indent: 0%;
-  font-size: 15px;
-  padding-left: 100px;
-  padding-top: 0px;
-  text-align: justify;
-  line-height: 28px;
-}
-
-.clarinet_block img {
-  width: 335px;
-  position: relative;
-  right: 0px;
-  left: 115px;
-  padding: 35px 0px 35px;
+.clarinet_block img{
+  float: left;
+  width: 30.5em;
   
 }
+.clarinet_block h2 {
+  padding-top: 2em;
+  padding-left: 13em;
+  padding-bottom: .1em;
+  font-size: 2.5em;
+}
+
+.clarinet_block p {
+  font-size: 1.2em; 
+  text-indent: 2em;
+  padding-left: 28em;
+  padding-bottom: 12em;
+  
+}
+
 
 .horn_block {
   border-bottom: double;
-  
-}
-.horn_block1 h2 {
-  font-size: 30px;
-  padding-left: 100px;
-  padding-top: 50px;
-  padding-bottom: 20px;
-  text-align: center;
 }
 
-.horn_block1 p {
-  text-indent: 0%;
-  font-size: 15px;
-  padding-left: 100px;
-  padding-top: 0px;
-  text-align: justify;
-  line-height: 28px;
-}
-
-.horn_block img {
-  width: 335px;
-  position: relative;
-  right: 0px;
-  left: 115px;
-  padding: 35px 0px 35px;
+.horn_block img{
+  float: left;
+  width: 31.5em;
   
 }
+.horn_block h2 {
+  padding-top: 2em;
+  padding-left: 13em;
+  padding-bottom: .1em;
+  font-size: 2.5em;
+}
+
+.horn_block p {
+  font-size: 1.2em; 
+  text-indent: 2em;
+  padding-left: 28em;
+  padding-bottom: 11em;
+  
+}
+
 
 .bassoon_block {
-  border-bottom: double; 
+  border-bottom: double;
+  padding-top: 3em;
+}
+
+.bassoon_block img{
+  float: left;
+  width: 30.5em;
   
 }
-.bassoon_block1 h2 {
-  font-size: 30px;
-  padding-left: 100px;
-  padding-top: 50px;
-  padding-bottom: 20px;
-  text-align: center;
+.bassoon_block h2 {
+  padding-top: 2em;
+  padding-left: 13em;
+  padding-bottom: .1em;
+  font-size: 2.5em;
 }
 
-.bassoon_block1 p {
-  text-indent: 0%;
-  font-size: 15px;
-  padding-left: 100px;
-  padding-top: 0px;
-  text-align: justify;
-  line-height: 28px;
-}
-
-.bassoon_block img {
-  width: 335px;
-  position: relative;
-  right: 0px;
-  left: 115px;
-  padding: 35px 0px 35px;
+.bassoon_block p {
+  font-size: 1.2em; 
+  text-indent: 2em;
+  padding-left: 28em;
+  padding-bottom: 5em;
   
 }
 
