@@ -293,9 +293,15 @@ px      68    160    252    */
 					Work Start 
 -----------------------------------------------*/
 #global-header{
+  background: url("../img/collage_ot.jpg") no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+  position: relative;
   background-position-y: 25vmin;
-  padding-top: 50vmin;
+  padding-top: 94vmin;
 }
+
+
 
 #slider-work {
     padding-top: 100px;
@@ -431,10 +437,128 @@ px      68    160    252    */
   footer .footer-manu {
     display: ;
   }
-}
+
  /*---------------------------------------------
 					About Start 
 -----------------------------------------------*/
+.group_bio h1 {
+  font-size: 2em;
+}
+.group_bio p {
+  font-size: 1.15em;
+  padding-bottom: 1em;
+  padding-left: .6em;
+  padding-right: .4em;
+}
+
+.flute_block img {
+  float: block;
+  width: 25em;
+  padding-left: 1.7em;
+  padding-bottom: 1em;
+}
+
+.flute_block h2 {
+  padding-top: 0em;
+  padding-left: .8em;
+  padding-bottom: 0em;
+  font-size: 2em;
+}
+.flute_block p {
+  font-size: 1.15em; 
+  text-indent: 2em;
+  padding-left: 1.6em;
+  padding-right: 1.3em;
+  padding-bottom: 1.5em;
+}
+
+.oboe_block img {
+  float: block;
+  width: 25em;
+  padding-left: 1.5em;
+  padding-bottom: .8em;
+}
+
+.oboe_block h2 {
+  padding-top: 0em;
+  padding-left: .8em;
+  padding-bottom: 0em;
+  font-size: 2em;
+}
+.oboe_block p {
+  font-size: 1.15em; 
+  text-indent: 2em;
+  padding-left: 1.6em;
+  padding-right: 1.3em;
+  padding-bottom: 1.5em;
+}
+
+.clarinet_block img {
+  float: block;
+  width: 25em;
+  padding-left: 1.5em;
+  padding-bottom: .7em;
+}
+
+.clarinet_block h2 {
+  padding-top: 0em;
+  padding-left: .8em;
+  padding-bottom: 0em;
+  font-size: 2em;
+}
+.clarinet_block p {
+  font-size: 1.15em; 
+  text-indent: 2em;
+  padding-left: 1.6em;
+  padding-right: 1.3em;
+  padding-bottom: 1.5em;
+}
+
+.horn_block img {
+  float: block;
+  width: 25em;
+  padding-left: 1.5em;
+  padding-bottom: .7em;
+}
+
+.horn_block h2 {
+  padding-top: 0em;
+  padding-left: .8em;
+  padding-bottom: 0em;
+  font-size: 2em;
+}
+.horn_block p {
+  font-size: 1.15em; 
+  text-indent: 2em;
+  padding-left: 1.6em;
+  padding-right: 1.3em;
+  padding-bottom: 1.5em;
+}
+.bassoon_block {
+  padding-top: 2em;
+}
+.bassoon_block img {
+  float: block;
+  width: 25em;
+  padding-left: 1.6em;
+  padding-bottom: 1em;
+}
+
+.bassoon_block h2 {
+  padding-top: 0em;
+  padding-left: .8em;
+  padding-bottom: 0em;
+  font-size: 2em;
+}
+.bassoon_block p {
+  font-size: 1.15em; 
+  text-indent: 2em;
+  padding-left: 1.6em;
+  padding-right: 1.3em;
+  padding-bottom: 1.5em;
+}
+
+}
  
 /*		Wide Mobile Layout: 480px.
 		Gutters: 24px.
