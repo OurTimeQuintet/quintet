@@ -1,0 +1,7 @@
+I"ê<p>We did it! We are up and running!</p>
+
+<h2>Newletter 1</h2>
+<iframe src="newsletter1.pdf" width="100%" style="border:none;"></iframe>
+
+<p><img src="../img/newsletter1.pdf" onload="this.onload=null; this.src=getImagePath();" /></p>
+:ET

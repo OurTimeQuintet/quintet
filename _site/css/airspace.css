@@ -822,6 +822,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 
 
+
 /*---------------------------------------------
 					Contact Close
 -----------------------------------------------*/
@@ -1064,3 +1065,6 @@ footer .footer-manu ul li a:hover {
   padding-bottom: 4em;
 }
 
+.post-info-wrapper h1{
+  text-align: left;
+}
