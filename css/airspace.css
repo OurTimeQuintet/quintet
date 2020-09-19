@@ -271,6 +271,15 @@ font header .navbar-default .navbar-nav li a:hover {
   width: 100%;
   height: 200px;
 }
+
+#call-to-action a:link {
+  color:white;
+}
+
+#call-to-action a:hover {
+  color: #B0C4DE;
+}
+
 /*--
 	Feature Start
 --*/
@@ -819,6 +828,14 @@ font header .navbar-default .navbar-nav li a:hover {
 
 #call-to-action .contact_block p {
   font-size: 1.5em;
+}
+
+#call-to-action .contact_block a:link {
+  color: black;
+}
+
+#call-to-action .contact_block a:hover {
+  color: #DCDCDC;
 }
 
 
