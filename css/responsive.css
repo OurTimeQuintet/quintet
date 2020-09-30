@@ -557,6 +557,44 @@ px      68    160    252    */
   padding-right: 1.3em;
   padding-bottom: 1.5em;
 }
+/*---------------------------------------------
+					Media Start 
+-----------------------------------------------*/
+.media_header h1 {
+  font-size: 3em;
+  padding-top: 0em;
+}
+
+/*---------------------------------------------
+					Contact Start 
+-----------------------------------------------*/
+
+#contact-form .contact_block h2{
+  font-size: 2.5em;
+}
+
+#contact-form .contact_info {
+  padding-left: 1em;
+  border-bottom-style: none; 
+}
+
+  #contact-form .contact_block a:link {
+    font-size: .9em;
+    padding-left: 2em;
+  }
+
+  .connect_block {
+    display: none;
+  }
+
+  #contact-form .contact_block img {
+    display: none;
+  }
+  #call-to-action .contact_block h2 {
+    font-size: 2.4em;
+    line-height: normal;
+    
+  }
 
 }
  
