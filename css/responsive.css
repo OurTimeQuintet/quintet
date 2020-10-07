@@ -12,7 +12,145 @@ px      68    160    252    344    436    528    620    712    804    896    */
 -----------------------------------------------------------------
 cols    1     2      3      4      5      6      7      8
 px      68    160    252    344    436    528    620    712    */
+@media only screen and (min-width: 415px) and (max-width: 768px) {
+  #intro .block img {
+    padding-top: 30px;
+    padding-left: 30px;
+    width: 90%;
+  }
 
+  #global-header {
+    background: url("../img/slider-bg_ot3.jpg") no-repeat;
+    background-size: contain;
+    background-position-y: 10vmin;
+    padding-top: 43vmin;
+    padding-bottom: 30px;
+    position: relative;
+    background-attachment: fixed;
+  }
+  #global-header .block h1 {
+    font-size: 5vmin;
+  }
+  .group_bio h1 {
+    font-size: 2em;
+  }
+  .group_bio p {
+    font-size: 1.15em;
+    padding-bottom: 1em;
+    padding-left: .6em;
+    padding-right: .4em;
+  }
+  
+  .flute_block img {
+    float: block;
+    width: 21em;
+    padding-left: 0em;
+    padding-bottom: 0em;
+  }
+  
+  .flute_block h2 {
+    padding-top: 1em;
+    padding-left: 11em;
+    padding-bottom: 0em;
+    font-size: 2em;
+  }
+  .flute_block p {
+    font-size: 1.15em; 
+    text-indent: 2em;
+    padding-left: 19em;
+    padding-right: 1.3em;
+    padding-bottom: 1.5em;
+  }
+  
+  .oboe_block img {
+    float: block;
+    width: 21em;
+    padding-left: 0em;
+    padding-bottom: 0em;
+  }
+  
+  .oboe_block h2 {
+    padding-top: 0em;
+    padding-left: 11em;
+    padding-bottom: 0em;
+    font-size: 2em;
+  }
+  .oboe_block p {
+    font-size: 1.15em; 
+    text-indent: 2em;
+    padding-left: 19em;
+    padding-right: 1.3em;
+    padding-bottom: 1.5em;
+  }
+  
+  .clarinet_block img {
+    float: block;
+    width: 21em;
+    padding-left: 0em;
+    padding-bottom: 0em;
+  }
+  
+  .clarinet_block h2 {
+    padding-top: 1em;
+    padding-left: 11em;
+    padding-bottom: 0em;
+    font-size: 2em;
+  }
+  .clarinet_block p {
+    font-size: 1.15em; 
+    text-indent: 2em;
+    padding-left: 19em;
+    padding-right: 1.3em;
+    padding-bottom: 1.5em;
+  }
+  
+  .horn_block img {
+    float: block;
+    width: 21em;
+    padding-left: 0em;
+    padding-bottom: 0em;
+  }
+  
+  .horn_block h2 {
+    padding-top: 1em;
+    padding-left: 11em;
+    padding-bottom: 0em;
+    font-size: 2em;
+  }
+  .horn_block p {
+    font-size: 1.15em; 
+    text-indent: 2em;
+    padding-left: 19em;
+    padding-right: 1.3em;
+    padding-bottom: 1.5em;
+  }
+  .bassoon_block {
+    padding-top: 2em;
+  }
+  .bassoon_block img {
+    float: block;
+    width: 21em;
+    padding-left: 0em;
+    padding-bottom: 0em;
+  }
+  
+  .bassoon_block h2 {
+    padding-top: 0em;
+    padding-left: 11em;
+    padding-bottom: 0em;
+    font-size: 2em;
+  }
+  .bassoon_block p {
+    font-size: 1.15em; 
+    text-indent: 2em;
+    padding-left: 19em;
+    padding-right: 1.3em;
+    padding-bottom: 1.5em;
+  }
+  #contact-form .contact_block img {
+    display: none;
+  }
+}
 @media only screen and (min-width: 377px) and (max-width: 414px) {
   /*---------------------------------------------
 					Index Start 
@@ -21,7 +159,16 @@ px      68    160    252    344    436    528    620    712    */
   background-position-y: 50%;
 }  
 #slider .block h1 {
-    padding-bottom: 375px;
+    padding-bottom: 400px;
+  }
+#slider {
+    background: url("../img/slider-bg_ot2phone.jpg") no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    position: relative;
+    background-position: 0vmin 35vmin;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
   /*--
 	wrapper Start 
@@ -35,6 +182,7 @@ px      68    160    252    344    436    528    620    712    */
     padding-top: 100px;
     width: 50%;
   }
+
   /*--
 	content Start 
 --*/
@@ -140,13 +288,186 @@ px      68    160    252    344    436    528    620    712    */
   #features-work .block ul li {
     width: 49%;
   }
+/*--------*/
+#intro {
+  padding: 20vw 0 20vw 0;
+}
+#intro .block h2 {
+  padding: 0 0 10vw 0;
+}
+#intro .block h1 {
+  padding: 0 0 5vw 0;
+}
+
+#intro .block p {
+  padding: 0 4vw 0 4vw;
+}
+
+#intro .block img {
+    display: none;
+  }
+
+/*--------*/
+#global-header{
+    background: url("../img/collage_ot.jpg") no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    position: relative;
+    background-position-y: 22vmin;
+    padding-top: 94vmin;
+  }
+  .group_bio h1 {
+    font-size: 2em;
+  }
+  .group_bio p {
+    font-size: 1.15em;
+    padding-bottom: 1em;
+    padding-left: .6em;
+    padding-right: .4em;
+  }
+  
+  .flute_block img {
+    float: block;
+    width: 25em;
+    padding-left: 4em;
+    padding-bottom: 0em;
+  }
+  
+  .flute_block h2 {
+    padding-top: 14em;
+    padding-left: .8em;
+    padding-bottom: 0em;
+    font-size: 2em;
+  }
+  .flute_block p {
+    font-size: 1.15em; 
+    text-indent: 2em;
+    padding-left: 1.6em;
+    padding-right: 1.3em;
+    padding-bottom: 1.5em;
+  }
+  
+  .oboe_block img {
+    float: block;
+    width: 25em;
+    padding-left: 4em;
+    padding-bottom: .8em;
+  }
+  
+  .oboe_block h2 {
+    padding-top: 0em;
+    padding-left: .8em;
+    padding-bottom: 0em;
+    font-size: 2em;
+  }
+  .oboe_block p {
+    font-size: 1.15em; 
+    text-indent: 2em;
+    padding-left: 1.6em;
+    padding-right: 1.3em;
+    padding-bottom: 1.5em;
+  }
+  
+  .clarinet_block img {
+    float: block;
+    width: 25em;
+    padding-left: 4em;
+    padding-bottom: 0em;
+  }
+  
+  .clarinet_block h2 {
+    padding-top: 14em;
+    padding-left: .8em;
+    padding-bottom: 0em;
+    font-size: 2em;
+  }
+  .clarinet_block p {
+    font-size: 1.15em; 
+    text-indent: 2em;
+    padding-left: 1.6em;
+    padding-right: 1.3em;
+    padding-bottom: 1.5em;
+  }
+  
+  .horn_block img {
+    float: block;
+    width: 25em;
+    padding-left: 4em;
+    padding-bottom: .7em;
+  }
+  
+  .horn_block h2 {
+    padding-top: 0em;
+    padding-left: .8em;
+    padding-bottom: 0em;
+    font-size: 2em;
+  }
+  .horn_block p {
+    font-size: 1.15em; 
+    text-indent: 2em;
+    padding-left: 1.6em;
+    padding-right: 1.3em;
+    padding-bottom: 1.5em;
+  }
+  .bassoon_block {
+    padding-top: 2em;
+  }
+  .bassoon_block img {
+    float: block;
+    width: 25em;
+    padding-left: 4em;
+    padding-bottom: 1em;
+  }
+  
+  .bassoon_block h2 {
+    padding-top: 0em;
+    padding-left: .8em;
+    padding-bottom: 0em;
+    font-size: 2em;
+  }
+  .bassoon_block p {
+    font-size: 1.15em; 
+    text-indent: 2em;
+    padding-left: 1.6em;
+    padding-right: 1.3em;
+    padding-bottom: 1.5em;
+  }
+
+
   /*---------------------------------------------
 					Work close 
 -----------------------------------------------*/
+ 
   /*=============================================*/
   /*---------------------------------------------
 					contact start 
 -----------------------------------------------*/
+#contact-form .contact_block h2{
+  font-size: 2.5em;
+}
+
+#contact-form .contact_info {
+  padding-left: 1em;
+  border-bottom-style: none; 
+}
+
+#contact-form .contact_block a:link {
+    font-size: .9em;
+    padding-left: 2em;
+  }
+
+  .connect_block {
+    display: none;
+  }
+
+  #contact-form .contact_block img {
+    display: none;
+  }
+  #call-to-action .contact_block h2 {
+    font-size: 2.4em;
+    line-height: normal;
+    
+  }
   #wrapper-contact .block {
     padding-bottom: 50px;
   }
@@ -192,9 +513,7 @@ px      68    160    252    */
     position: relative;
     background-position: 0vmin 60vmin;
     padding-top: 0px;
-    padding-bottom: 0px;
-    
-    
+    padding-bottom: 0px; 
   }
   #slider .block {
     padding-left: 0px;
