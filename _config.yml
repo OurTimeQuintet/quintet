@@ -16,9 +16,9 @@ keep_files:
 # Site settings
 title: Our Time
 subtitle: "Wind Quintet"
-url: "http://ourtimequintet.github.io" # the base hostname & protocol for your site
+url: "http://ourtimequintet.com" # the base hostname & protocol for your site
 # baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
-baseurl: "/quintet"
+baseurl:
 cover: "/assets/cover.png"
 logo: "/assets/logo.png"
 
