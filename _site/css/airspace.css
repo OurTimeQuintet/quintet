@@ -100,7 +100,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	Slider Start
 --*/
 #slider {
-  background: url("../img/slider-bg_ot2.jpg") no-repeat;
+  background: url("../img/home_slider.jpg") no-repeat;
   background-size: contain;
   background-attachment: fixed;
   background-position-x: 0vmax;
@@ -411,9 +411,9 @@ font header .navbar-default .navbar-nav li a:hover {
 	Slider-work Start
 --*/
 #global-header {
-  background: url("../img/slider-bg_ot3.jpg") no-repeat;
+  background: url("../img/slider-bg_ot4.jpg") no-repeat;
   background-size: contain;
-  background-position-y: 2vmin;
+  background-position-y: 10vmin;
   padding-top: 62vmin;
   padding-bottom: 0px;
   position: relative;
@@ -1005,10 +1005,9 @@ footer .footer-manu ul li a:hover {
   font-size: 1.2em; 
   text-indent: 2em;
   padding-left: 28em;
-  padding-bottom: 12em;
+  padding-bottom: 14em;
   
 }
-
 
 .horn_block {
   border-bottom: double;

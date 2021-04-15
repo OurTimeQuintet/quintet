@@ -20,9 +20,9 @@ px      68    160    252    344    436    528    620    712    */
   }
 
   #global-header {
-    background: url("../img/slider-bg_ot3.jpg") no-repeat;
+    background: url("../img/slider-bg_ot4.jpg") no-repeat;
     background-size: contain;
-    background-position-y: 10vmin;
+    background-position-y: 15vmin;
     padding-top: 43vmin;
     padding-bottom: 30px;
     position: relative;
@@ -159,14 +159,14 @@ px      68    160    252    344    436    528    620    712    */
   background-position-y: 50%;
 }  
 #slider .block h1 {
-    padding-bottom: 400px;
+    padding-bottom: 440px;
   }
 #slider {
-    background: url("../img/slider-bg_ot2phone.jpg") no-repeat;
+    background: url("../img/slider-phone.jpg") no-repeat;
     background-size: contain;
     background-attachment: fixed;
     position: relative;
-    background-position: 0vmin 35vmin;
+    background-position: 0vmin 39vmin;
     padding-top: 0px;
     padding-bottom: 0px;
   }
@@ -309,7 +309,7 @@ px      68    160    252    344    436    528    620    712    */
 
 /*--------*/
 #global-header{
-    background: url("../img/collage_ot.jpg") no-repeat;
+    background: url("../img/collage_ot2021.jpg") no-repeat;
     background-size: contain;
     background-attachment: fixed;
     position: relative;
