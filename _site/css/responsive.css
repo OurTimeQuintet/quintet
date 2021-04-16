@@ -507,7 +507,7 @@ px      68    160    252    */
     margin-bottom: 0px;
   }
   #slider {
-    background: url("../img/slider-bg_ot2phone.jpg") no-repeat;
+    background: url("../img/slider-phone.jpg") no-repeat;
     background-size: contain;
     background-attachment: fixed;
     position: relative;
@@ -612,7 +612,7 @@ px      68    160    252    */
 					Work Start 
 -----------------------------------------------*/
 #global-header{
-  background: url("../img/collage_ot.jpg") no-repeat;
+  background: url("../img/collage_ot2021.jpg") no-repeat;
   background-size: contain;
   background-attachment: fixed;
   position: relative;
